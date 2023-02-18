@@ -1,0 +1,29 @@
+body {
+    font-family: MontSerrat;
+    display: flex;
+}
+
+table {
+    border: 2px solid black;
+    border-spacing: 0px;
+    border-radius: 4px;
+}
+
+thead {
+    font-size: 1.5rem;
+}
+
+th {
+    text-align: start;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
